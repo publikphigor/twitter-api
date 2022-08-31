@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Koladele Olaitan" />
+    <meta
+      name="description"
+      content="This is a simple tool that you can use to find any Twitter user by their username."
+    />
+    <title>Twitter Find User</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ==== header ==== -->
+    <header class="w-full bg-white py-4 px-16 shadow">
+      <h1 class="text-sky-900 text-xl font-medium">FindTwitterUser</h1>
+    </header>
+
+    <!-- ==== search form ==== -->
+    <form class="w-3/5 mt-20 mx-auto">
+      <div class="w-full relative">
+        <input
+          type="text"
+          placeholder="Enter username to find a user"
+          id="username"
+          class="border py-3 px-8 border w-full rounded-xl"
+        />
+        <label for="username" class="absolute top-1/2 left-3 -translate-y-1/2 text-gray-500"
+          >@</label
+        >
+      </div>
+      <input
+        type="submit"
+        value="Find User"
+        class="w-1/5 mt-4 bg-sky-900 text-white rounded-xl mx-auto block px-10 py-3"
+      />
+    </form>
+  </body>
+</html>
