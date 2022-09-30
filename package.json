@@ -4,5 +4,8 @@
   },
   "scripts": {
     "build-css": "tailwindcss -i src/style.css -o public/style.css --watch"
+  },
+  "dependencies": {
+    "parcel": "^2.7.0"
   }
 }
