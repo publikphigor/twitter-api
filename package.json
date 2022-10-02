@@ -1,12 +1,8 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "postcss": "^8.4.17",
-    "tailwindcss": "^3.1.8"
-  },
+  "devDependencies": {},
   "scripts": {
-    "dev": "npx parcel public/index.html",
-    "build-css": "tailwindcss -i src/style.css -o public/style.css --watch"
+    "build": "npx parcel build src/index.html",
+    "start": "npx parcel src/index.html"
   },
   "dependencies": {
     "parcel": "^2.7.0"
